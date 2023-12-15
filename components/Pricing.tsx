@@ -121,7 +121,7 @@ export default function Pricing({
                     style: 'currency',
                     currency: price.currency!,
                     minimumFractionDigits: 0
-                  }).format(price.unit_amount / 100);
+                  }).format(price.unit_amount);
 
                 return (
                   <div

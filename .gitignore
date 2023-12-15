@@ -35,3 +35,39 @@ yarn-error.log*
 
 # editors
 .vscode
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore test output
+test_output/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore package-lock files
+**/package-lock.json
+
+# Ignore generated documentation
+docs/
+
+# Ignore backup files
+*.swp
+*.swo
+
+# Ignore Vim temporary files
+*~
+
+# Ignore local configurations
+.config/

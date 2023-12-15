@@ -229,7 +229,9 @@ export default function Pricing({
                   <h2 className="text-2xl font-semibold leading-6 text-white">
                     {product.name}
                   </h2>
-                  <p className="mt-4 text-zinc-300">{product.description}</p>
+                  <p className="mt-4 text-zinc-300">{product.interestrate}</p>
+                  <p className="mt-4 text-zinc-300">{product.accounttype}</p> 
+                  <p className="mt-4 text-zinc-300">{product.risklevel}</p>
                   <p className="mt-8">
                     <span className="text-5xl font-extrabold white">
                       {priceString}

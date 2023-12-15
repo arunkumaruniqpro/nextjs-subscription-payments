@@ -83,7 +83,9 @@ export interface Database {
       products: {
         Row: {
           active: boolean | null
-          description: string | null
+          interestrate: string | null
+          risklevel: string | null
+          accounttype: string | null
           id: string
           image: string | null
           metadata: Json | null
@@ -91,7 +93,9 @@ export interface Database {
         }
         Insert: {
           active?: boolean | null
-          description?: string | null
+          interestrate: string | null
+          risklevel: string | null
+          accounttype: string | null
           id: string
           image?: string | null
           metadata?: Json | null
@@ -99,7 +103,9 @@ export interface Database {
         }
         Update: {
           active?: boolean | null
-          description?: string | null
+          interestrate: string | null
+          risklevel: string | null
+          accounttype: string | null
           id?: string
           image?: string | null
           metadata?: Json | null
